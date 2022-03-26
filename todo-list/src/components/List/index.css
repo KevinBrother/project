@@ -1,0 +1,13 @@
+/* todoList */
+.main {
+  margin: 10px 0;
+  border: 1px solid skyblue;
+}
+
+.main ul li {
+  height: 50px;
+}
+
+ul li:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
